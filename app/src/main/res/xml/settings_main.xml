@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    android:title="News Settings">
+    <ListPreference
+        android:defaultValue="in"
+        android:entries="@array/CountryLabels"
+        android:entryValues="@array/CountryValues"
+        android:key="country"
+        android:title="COUNTRY"/>
+
+
+</PreferenceScreen>
